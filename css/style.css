@@ -7,13 +7,44 @@ body {
 }
 
 svg {
+    padding: 20px 0 0 20px;
     height: 50px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 0 10px 0 40px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    font-size: 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+header nav {
+    float:right;
+    margin-top: 10px;
 }
 
 .social {
     height: 50px;
 }
 
+button {
+    background-color: orange;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+}
+
+.coverpage {
+    background-image: url("img/first-background.jpg");
+}
 /**
  * Add your custom styles below
  * 
